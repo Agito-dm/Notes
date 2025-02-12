@@ -46,3 +46,16 @@ DB_PASSWORD=
 ![изображение](https://github.com/user-attachments/assets/7a4a4bbc-c5f2-41f2-9852-66bec60d8278)
 ![изображение](https://github.com/user-attachments/assets/44c9bc37-6458-4149-84f3-f9eaa8b61d49)
 
+## В stodage\logs нужно открыть файл laravel.log и с помощью поиска найти письмо как показано на скрине ниже и зайти по сгенерированной уникальной ссылке
+![изображение](https://github.com/user-attachments/assets/339f89e5-433d-4508-9ef1-37eb91e255e9)
+![изображение](https://github.com/user-attachments/assets/1ff25512-a268-4e17-9c77-f006b5e57ed4)
+
+## Учетная запись активирована! При нажатии на Notes сверху слева будет главный экран и можно создавать записи. Также сверху слева можно зайти в свой аккаунт и изменить настройки
+![изображение](https://github.com/user-attachments/assets/985eb80c-03e6-4b82-8744-14d5c69940f6)
+![изображение](https://github.com/user-attachments/assets/94ae2bf9-81ee-4bec-a47d-ec7e9800ee74)
+![изображение](https://github.com/user-attachments/assets/88b527ad-c3d2-4b89-bedf-f75707ae10d7)
+![изображение](https://github.com/user-attachments/assets/290afb50-ca64-4019-8ff9-fcb91718ae87)
+![изображение](https://github.com/user-attachments/assets/1f50b707-54b0-43b8-baea-b728e7bd45fa)
+
+# Вход в систему авторизованного пользователя по кнопке "Log in" на начальной странице и после этого на странице авторизации нужно ввести почту и пароль
+![изображение](https://github.com/user-attachments/assets/44d5b5ef-0cf1-4436-b13e-70a2cdf7c922)
