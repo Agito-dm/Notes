@@ -8,3 +8,26 @@
 
 ## созданные страницы
 По пути resources\views\note\... находятся основные созданные страницы .blade.php, а остальные файлы я разместил согласно стандартному расположению файлов в laravel 11
+
+## Информация в базе данных
+
+![изображение](https://github.com/user-attachments/assets/3c21e715-ea25-4e35-bbaa-b3aaca518b7a)
+
+![изображение](https://github.com/user-attachments/assets/d528c8f4-6b06-47de-a123-fc3ebb44aaba)
+
+![изображение](https://github.com/user-attachments/assets/097cd5f6-993a-4da5-bdd1-14dd05dcba6f)
+
+
+## Изображения и инструкция по созданию пользователя
+
+В .env указаны параметры подключения к базе данных MySQL, но можно сделать подключение и к другой базе данных изменив параметры:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=Notes
+DB_USERNAME=root
+DB_PASSWORD=
+
+### Для создания тестового пользователя со 100 записями используй команду ниже. Подробности указаны в DatabaseSeeder.php
+### php artisan db:seed
+
