@@ -4,7 +4,17 @@ use App\Http\Controllers\NoteController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::redirect('/', '/note')->name('dashboard');
+//Route::redirect('/', '/note')->name('dashboard');
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/dashboard', function (){
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+// Два Route выше добавлены, так как я не делал уникальную страницу регистрации
 
 Route::middleware(['auth', 'verified'])->group(function () {
     // Route::get('/note', [NoteController::class, 'index'])->name('node.index');
